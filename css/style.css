@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*common start*/
+body{
+	/*font-family: ;*/
+	font-size:16px ;
+	font-weight:400 ;
+	color:#ffffff;
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+
+}
+.container{
+/*min-height: 90px;*/
+overflow: hidden;
+width: 80%;
+margin: 0 auto;
+/*border: 1px solid red;*/
+}
+.logo{
+	/*min-height: 70px;*/
+	width: 20%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.logo img {
+min-height: 100%;
+	width: 100%;
+}
+.menu{
+	padding: 35px 0;
+	display: inline-block;
+	width: 70%;
+	float: right;
+	/*border: 1px solid blue;*/
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+float: right;
+padding: 0px 20px; 
+text-decoration: none; 
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*banner start*/
+.container1{
+
+}
+.banner{
+background-image: url(../images/b.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
+
+}
+
+.banner-content{
+	display: inline-block;
+margin-top:200px ;
+margin-bottom:50px ;
+width: 50%;
+
+
+}
+.banner-content p:first-child{
+font-size: 35px
+}
+
+.banner-content h1{
+color: #0000FF;
+font-size: 45px;
+}
+
+.banner-content p:nth-last-child(2){
+font-size: 20px;
+line-height: 1.5;
+
+}
+.banner-content button{
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: #5A5A5A;
+margin-top: 20px;
+}
+.banner-content button span{
+background-color: blue;
+padding: 5px 10px;
+border-radius: 50px;
+color: white;
+margin-left: 10px;
+width: 100%;
+}
+
+
+/*banner end*/
+
+
+
+
+
+
+/*service start*/
+.service{
+	    padding-top: 30px;
+	padding-bottom: 5px;
+display: inline-block;
+background-color: #63ad9e;
+}
+.wireless{
+	display: inline-block;
+	overflow: hidden;
+	color:#5A5A5A ;
+	width: 29%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid white;
+	margin-left: 5px;
+}
+.wireless:first-child{
+	border-left: 0;
+}
+.wireless:last-child{
+	border-right: 0;
+}
+.title{
+overflow: hidden;
+margin-bottom: 5px;
+}
+.icon{
+
+float: left;
+width:25%;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content{
+
+	float:left;
+	width: 70%;
+	margin-top: 12px;
+
+}
+.icon-content h1{
+color: white;
+
+}
+.icon-content h2{
+color: red;
+}
+.content{
+
+}
+.content p{
+line-height: 1.2;
+
+}
+/*service end*/
+
+.contact{
+background-color: black;
+display: inline-block;
+width: 100%;
+overflow: hidden;
+}
+.container{
+
+}
+.service1{
+	margin: 25px;
+
+    overflow: hidden;
+	float: left;
+
+}
+.oceans{
+	padding-top: 20px;
+	width: 20%;
+	float: left;
+	display: inline-block;
+
+
+margin: 20px;
+}
+.oceans-h1{
+font-size: 16px;
+}
+.oceans-h1 h1{
+color: blue;
+font-size: 16px;
+}
+.oceans h1 span{
+color: blue;
+
+}
+.oceans-p{
+padding-top: 15px;
+}
+.oceans-p p{
+
+}
+.oceans-h2{
+	display: inline-block;
+	font-size: 12px;
+	padding-top: 15px;
+padding-bottom: 10px;
+}
+.oceans-h2 span{
+
+}
+.oceans-h2 p{
+	font-size: 14px;
+	    padding-top: 5px;
+	display: inline-block;
+}
+.customer {
+	float: left;
+	width: 20%;
+	display: inline-block;
+	margin: 20px;
+}
+
+.customer-h2 {
+font-size: 16px;
+	display: inline-block;
+
+}
+.customer-h2 h1{
+	font-size: 16px;
+display: inline-block;
+}
+.customer-h2  h2 span{
+	font-size: 16px;
+	display: inline-block;
+	color: blue;
+}
+
+.customer-p {
+	padding-top: 15px;
+}
+.customer-h2{
+	padding-top: 20px;
+}
+.customer-h2 h2{
+	font-size: 16px;
+}
+
+.customer-address {
+}
+
+.image{
+
+	float: left;
+	display: inline-block;
+	width: 20%;
+
+}
+.image img{
+	    padding: 20px 20px 0px 42px;
+
+}
+
+.appstore{
+	
+	display: inline-block;
+	float: left;
+	width: 20%;
+
+    overflow: hidden;
+    padding: 24px;
+    margin: 25px;
+}
+
+.appstore h2{
+	display: inline-block;
+	overflow: hidden;
+     color: blue;
+     padding-top: 10px;
+}
+.img{
+	overflow: hidden;
+	padding-top: 10px;
+
+}
+
+/*footer start*/
+footer
+.lower{
+overflow: hidden;
+background-color: #4c4f4d;
+}
+.container{
+}
+
+.footer-b{
+	display: inline-block;	
+	float: left;
+    width: 50%;
+    margin: 20px;
+}
+.menu-2{
+	display: inline-block;
+}
+.menu-2 ul{
+
+}
+.menu-2 ul li{
+	border-right: 1px solid white;
+	color:#f2f7f6;
+	display: inline-block;
+    float: left;
+     list-style: none;
+}
+.menu-2 ul li a{
+	padding: 0px 10px;
+}
+
+.menu-2 ul li a:hover{
+	color: #008aff;
+}
+.menu-p{
+
+}
+.menu-p h2{
+	padding-top: 10px;
+	font-size: 16px;
+	overflow: hidden;
+}
+.img-all{
+	margin: 20px;
+	float: right;
+    width: 40%;
+}
+.img3{
+	display: inline-block;	
+	float: left;
+
+}
+.img3 img{
+	float: left;
+    display: inline-block;
+}
+.img4{
+	padding-left: 30px;
+	display: inline-block;	
+	float: left;
+}
+.img4 img{
+	float: right;
+	display: inline-block;
+}
+
+/*footer end*/
