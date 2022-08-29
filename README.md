@@ -1,2 +1,1 @@
-# ocean-edge
-https://omair505.github.io/ocean-edge/
+https://omair505.github.io/blue/
